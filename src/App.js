@@ -19,7 +19,7 @@ this.setState({person: data.results[0]})
      {!this.state.person ? <p>Loading...</p> :
      <div>
 
-      <img className='picture' src={this.state.person.picture.large} width="150px" alt = "person"/>
+      <img className='picture' src={this.state.person.picture.large} width="150px" alt="person"/>
       <p className='first'>Name: {this.state.person.name.first} {this.state.person.name.last}</p>
       <p>Age: {this.state.person.dob.age}</p>
       <p>Email: {this.state.person.email}</p>
